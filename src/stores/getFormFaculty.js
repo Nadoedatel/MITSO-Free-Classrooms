@@ -3,7 +3,7 @@ import { ref } from "vue";
 
 export const useFormFaculty = defineStore("formFaculty", () => {
   const arrFormOnFaculty = ref([]);
-  const arrFaculty = ref(["Юридический", "Экономический"])
+  const arrFaculty = ref(["Юридический", "Экономический", "Магистратура"])
   const nowFaculty = ref("")
   // Функция передачи из факультета, все формы обучения
   function deliveryToArr(data) {
